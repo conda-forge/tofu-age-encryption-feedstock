@@ -1,5 +1,5 @@
 context:
-  version: "1.1.1"
+  version: "1.1.4"
 
 package:
   name: tofu-age-encryption
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/josh/tofu-age-encryption/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: 2a6be598cefe32fb155868765aeedf69a9be0fbac007fec327852aba903929c1
+  sha256: d373b82f95ce429993c15fa5d768e091ec79e866ef6d9b410ff0813f18bdcbf0
   target_directory: src
 
 build:
